@@ -9,21 +9,21 @@ Build status: [![Build Status](https://travis-ci.org/PHPMailer/PHPMailer.svg)](h
 [![Latest Stable Version](https://poser.pugx.org/phpmailer/phpmailer/v/stable.svg)](https://packagist.org/packages/phpmailer/phpmailer) [![Total Downloads](https://poser.pugx.org/phpmailer/phpmailer/downloads)](https://packagist.org/packages/phpmailer/phpmailer) [![Latest Unstable Version](https://poser.pugx.org/phpmailer/phpmailer/v/unstable.svg)](https://packagist.org/packages/phpmailer/phpmailer) [![License](https://poser.pugx.org/phpmailer/phpmailer/license.svg)](https://packagist.org/packages/phpmailer/phpmailer) [![API Docs](https://github.com/phpmailer/phpmailer/workflows/Docs/badge.svg)](http://phpmailer.github.io/PHPMailer/)
 
 ## Class Features
-- Probably the world's most popular code for sending email from PHP!
-- Used by many open-source projects: WordPress, Drupal, 1CRM, SugarCRM, Yii, Joomla! and many more
-- Integrated SMTP support - send without a local mail server
-- Send emails with multiple To, CC, BCC and Reply-to addresses
-- Multipart/alternative emails for mail clients that do not read HTML email
-- Add attachments, including inline
-- Support for UTF-8 content and 8bit, base64, binary, and quoted-printable encodings
-- SMTP authentication with LOGIN, PLAIN, CRAM-MD5, and XOAUTH2 mechanisms over SSL and SMTP+STARTTLS transports
-- Validates email addresses automatically
-- Protect against header injection attacks
-- Error messages in over 50 languages!
-- DKIM and S/MIME signing support
-- Compatible with PHP 5.5 and later
-- Namespaced to prevent name clashes
-- Much more!
+--> Probably the world's most popular code for sending email from PHP!
+--> Used by many open-source projects: WordPress, Drupal, 1CRM, SugarCRM, Yii, Joomla! and many more
+--> Integrated SMTP support - send without a local mail server
+--> Send emails with multiple To, CC, BCC and Reply-to addresses
+--> Multipart/alternative emails for mail clients that do not read HTML email
+--> Add attachments, including inline
+--> Support for UTF-8 content and 8bit, base64, binary, and quoted-printable encodings
+--> SMTP authentication with LOGIN, PLAIN, CRAM-MD5, and XOAUTH2 mechanisms over SSL and SMTP+STARTTLS transports
+--> Validates email addresses automatically
+--> Protect against header injection attacks
+--> Error messages in over 50 languages!
+--> DKIM and S/MIME signing support
+--> Compatible with PHP 5.5 and later
+--> Namespaced to prevent name clashes
+--> Much more!
 
 ## Why you might need it
 Many PHP developers need to send email from their code. The only PHP function that supports this is [`mail()`](https://www.php.net/manual/en/function.mail.php). However, it does not provide any assistance for making use of popular features such as encryption, authentication, HTML messages, and attachments.
