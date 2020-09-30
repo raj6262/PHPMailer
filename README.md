@@ -10,19 +10,33 @@ Build status: [![Build Status](https://travis-ci.org/PHPMailer/PHPMailer.svg)](h
 
 ## Class Features
 --> Probably the world's most popular code for sending email from PHP!
+
 --> Used by many open-source projects: WordPress, Drupal, 1CRM, SugarCRM, Yii, Joomla! and many more
+
 --> Integrated SMTP support - send without a local mail server
+
 --> Send emails with multiple To, CC, BCC and Reply-to addresses
+
 --> Multipart/alternative emails for mail clients that do not read HTML email
+
 --> Add attachments, including inline
+
 --> Support for UTF-8 content and 8bit, base64, binary, and quoted-printable encodings
+
 --> SMTP authentication with LOGIN, PLAIN, CRAM-MD5, and XOAUTH2 mechanisms over SSL and SMTP+STARTTLS transports
+
 --> Validates email addresses automatically
+
 --> Protect against header injection attacks
+
 --> Error messages in over 50 languages!
+
 --> DKIM and S/MIME signing support
+
 --> Compatible with PHP 5.5 and later
+
 --> Namespaced to prevent name clashes
+
 --> Much more!
 
 ## Why you might need it
